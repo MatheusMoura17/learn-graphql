@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/MatheusMoura17/learn-graphql/issues"
   },
-  "homepage": "https://github.com/MatheusMoura17/learn-graphql#readme"
+  "homepage": "https://github.com/MatheusMoura17/learn-graphql#readme",
+  "dependencies": {
+    "apollo-server": "^2.14.2",
+    "graphql": "^15.0.0"
+  }
 }
